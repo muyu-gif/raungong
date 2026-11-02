@@ -1,0 +1,54 @@
+# ===== 环境与密钥（绝对不要提交）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ===== 数据库与本地数据 =====
+*.db
+*.sqlite
+*.sqlite3
+backend/data/
+data/
+!data/.gitkeep
+
+# ===== Node / 前端 =====
+node_modules/
+dist/
+.vite/
+*.local
+
+# ===== 日志、系统与 IDE =====
+*.log
+logs/
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# ===== 文档构建临时产物 =====
+.dsh-office-*/
+preview*.pdf
+tools/__pycache__/
+*.bak
+~$*
