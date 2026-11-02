@@ -1,0 +1,885 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "title": "“璀璨新程”迎新晚会策划方案",
+    "theme": "迎新晚会",
+    "activity_type": "welcome_party",
+    "activity_type_label": "迎新晚会",
+    "participants": 100,
+    "budget_yuan": 2000,
+    "starts_at": "2026-11-09T19:00:00+08:00",
+    "duration_minutes": 120,
+    "location": "学校礼堂",
+    "generated_at": "2026-11-02T12:05:00+08:00",
+    "agent": {
+      "provider": "dify",
+      "prompt_version": "v1.0"
+    },
+    "degraded": false
+  },
+  "plan": {
+    "summary": "面向2026级新生的室内迎新晚会，以“新程启航”为主线，用节目、互动和社团展示帮助新生快速融入校园。整场控制在120分钟，预算1990元，重点保障音响、节目衔接和现场安全。",
+    "background": "新生入学后对校园生活和社团缺乏了解，迎新晚会是建立归属感、展示校园文化的重要节点。活动安排在开学一个月后，既给节目排练留出时间，也避免与军训、期中考试冲突。",
+    "objectives": [
+      "帮助至少90名新生到场参与，提升对学校的归属感",
+      "展示6～8个社团的风采，为后续招新引流",
+      "形成一套可复用的迎新晚会流程和分工模板"
+    ],
+    "highlights": [
+      "以“车票”为视觉主线，入场时领取“新程车票”参与抽奖",
+      "节目之间穿插社团快闪，减少换场冷场",
+      "设置新生心愿墙，活动结束后持续展示一周"
+    ],
+    "success_criteria": [
+      "实际到场人数不低于90人",
+      "整场流程偏差不超过10分钟",
+      "无安全事故和重大设备故障",
+      "预算执行率不超过100%"
+    ],
+    "phases": [
+      {
+        "id": "P1",
+        "name": "筹备期",
+        "start_date": "2026-11-02",
+        "end_date": "2026-11-04",
+        "goal": "确定节目、场地、预算和分工",
+        "key_actions": [
+          "成立筹备组，明确总协调、节目、宣传、后勤、安全五个小组",
+          "发布节目征集通知，完成节目初审",
+          "确认礼堂档期和音响设备"
+        ],
+        "owner": "总协调",
+        "deliverables": [
+          "节目单初稿",
+          "分工表",
+          "预算表"
+        ]
+      },
+      {
+        "id": "P2",
+        "name": "宣传与采购期",
+        "start_date": "2026-11-05",
+        "end_date": "2026-11-07",
+        "goal": "完成宣传投放和物资采购",
+        "key_actions": [
+          "发布公众号推文和班级群通知",
+          "完成气球、横幅、荧光棒、零食等物资采购",
+          "收集节目伴奏和背景视频"
+        ],
+        "owner": "宣传组/后勤组",
+        "deliverables": [
+          "推文链接",
+          "物资到货清单",
+          "节目素材包"
+        ]
+      },
+      {
+        "id": "P3",
+        "name": "彩排与执行期",
+        "start_date": "2026-11-08",
+        "end_date": "2026-11-09",
+        "goal": "完成全流程彩排，确保正式演出顺利",
+        "key_actions": [
+          "11月8日下午进行带妆彩排",
+          "11月9日16:00开始布置场地",
+          "18:30完成音响、灯光、PPT联调"
+        ],
+        "owner": "总协调/舞台组",
+        "deliverables": [
+          "彩排记录",
+          "现场执行表",
+          "设备检查表"
+        ]
+      },
+      {
+        "id": "P4",
+        "name": "复盘期",
+        "start_date": "2026-11-10",
+        "end_date": "2026-11-11",
+        "goal": "沉淀数据和经验",
+        "key_actions": [
+          "统计签到、满意度问卷和预算执行情况",
+          "召开30分钟复盘会",
+          "归档照片、视频和方案"
+        ],
+        "owner": "总协调",
+        "deliverables": [
+          "复盘报告",
+          "照片视频合集",
+          "下一届可复用模板"
+        ]
+      }
+    ],
+    "rundown": [
+      {
+        "seq": 1,
+        "start_time": "19:00",
+        "end_time": "19:05",
+        "duration_minutes": 5,
+        "segment": "暖场倒计时",
+        "content": "播放迎新混剪视频，屏幕倒计时，观众入场就座",
+        "owner": "舞台组",
+        "location": "主舞台",
+        "notes": "提前测试音视频"
+      },
+      {
+        "seq": 2,
+        "start_time": "19:05",
+        "end_time": "19:10",
+        "duration_minutes": 5,
+        "segment": "主持人开场",
+        "content": "介绍活动主题、到场嘉宾和当晚流程",
+        "owner": "主持人",
+        "location": "主舞台",
+        "notes": "控制语速，避免超时"
+      },
+      {
+        "seq": 3,
+        "start_time": "19:10",
+        "end_time": "19:20",
+        "duration_minutes": 10,
+        "segment": "指导老师致辞",
+        "content": "欢迎新生，介绍社团文化节安排",
+        "owner": "指导老师",
+        "location": "主舞台",
+        "notes": "提前确认发言时长"
+      },
+      {
+        "seq": 4,
+        "start_time": "19:20",
+        "end_time": "19:50",
+        "duration_minutes": 30,
+        "segment": "节目一：青春序章",
+        "content": "乐队、舞蹈、歌曲串烧共4个节目",
+        "owner": "节目组",
+        "location": "主舞台",
+        "notes": "每个节目间留30秒换场"
+      },
+      {
+        "seq": 5,
+        "start_time": "19:50",
+        "end_time": "20:00",
+        "duration_minutes": 10,
+        "segment": "互动抽奖",
+        "content": "凭入场“新程车票”抽取三等奖和二等奖",
+        "owner": "主持人/后勤组",
+        "location": "主舞台",
+        "notes": "奖品提前编号，避免现场混乱"
+      },
+      {
+        "seq": 6,
+        "start_time": "20:00",
+        "end_time": "20:30",
+        "duration_minutes": 30,
+        "segment": "节目二：社团风采",
+        "content": "汉服、街舞、话剧社等社团展示",
+        "owner": "节目组",
+        "location": "主舞台",
+        "notes": "社团上下场路线提前彩排"
+      },
+      {
+        "seq": 7,
+        "start_time": "20:30",
+        "end_time": "20:40",
+        "duration_minutes": 10,
+        "segment": "社团快闪",
+        "content": "三个社团在观众区两侧快闪，拉近距离",
+        "owner": "社团组",
+        "location": "观众区",
+        "notes": "注意通道畅通"
+      },
+      {
+        "seq": 8,
+        "start_time": "20:40",
+        "end_time": "20:55",
+        "duration_minutes": 15,
+        "segment": "互动游戏",
+        "content": "“校园知识问答”和“听歌识曲”，邀请新生上台",
+        "owner": "主持人",
+        "location": "主舞台",
+        "notes": "准备备用题目，避免冷场"
+      },
+      {
+        "seq": 9,
+        "start_time": "20:55",
+        "end_time": "21:00",
+        "duration_minutes": 5,
+        "segment": "合唱与合影",
+        "content": "全场合唱校歌，主创与观众合影",
+        "owner": "总协调",
+        "location": "主舞台",
+        "notes": "提前安排摄影位"
+      }
+    ],
+    "budget": {
+      "currency": "CNY",
+      "requested_yuan": 2000,
+      "items_total_yuan": 1890,
+      "contingency_yuan": 100,
+      "planned_yuan": 1990,
+      "items": [
+        {
+          "id": "B1",
+          "category": "场地布置",
+          "name": "马卡龙气球套装",
+          "unit": "套",
+          "quantity": 5,
+          "unit_price_yuan": 30,
+          "amount_yuan": 150,
+          "note": "含气球、打气筒和彩带"
+        },
+        {
+          "id": "B2",
+          "category": "场地布置",
+          "name": "主横幅",
+          "unit": "条",
+          "quantity": 1,
+          "unit_price_yuan": 120,
+          "amount_yuan": 120,
+          "note": "尺寸6米×0.8米"
+        },
+        {
+          "id": "B3",
+          "category": "场地布置",
+          "name": "荧光棒",
+          "unit": "根",
+          "quantity": 100,
+          "unit_price_yuan": 0.8,
+          "amount_yuan": 80,
+          "note": "观众人手一根"
+        },
+        {
+          "id": "B4",
+          "category": "场地布置",
+          "name": "舞台背景板",
+          "unit": "块",
+          "quantity": 1,
+          "unit_price_yuan": 300,
+          "amount_yuan": 300,
+          "note": "KT板，含设计"
+        },
+        {
+          "id": "B5",
+          "category": "设备租赁",
+          "name": "音响设备租赁",
+          "unit": "套",
+          "quantity": 1,
+          "unit_price_yuan": 400,
+          "amount_yuan": 400,
+          "note": "含2个无线麦"
+        },
+        {
+          "id": "B6",
+          "category": "节目道具",
+          "name": "服装道具租赁",
+          "unit": "批",
+          "quantity": 1,
+          "unit_price_yuan": 300,
+          "amount_yuan": 300,
+          "note": "3个节目使用"
+        },
+        {
+          "id": "B7",
+          "category": "餐饮",
+          "name": "矿泉水",
+          "unit": "箱",
+          "quantity": 4,
+          "unit_price_yuan": 35,
+          "amount_yuan": 140,
+          "note": "24瓶/箱，演职人员与嘉宾"
+        },
+        {
+          "id": "B8",
+          "category": "餐饮",
+          "name": "小零食分享包",
+          "unit": "份",
+          "quantity": 100,
+          "unit_price_yuan": 2,
+          "amount_yuan": 200,
+          "note": "观众互动使用"
+        },
+        {
+          "id": "B9",
+          "category": "奖品",
+          "name": "抽奖小礼品",
+          "unit": "份",
+          "quantity": 10,
+          "unit_price_yuan": 20,
+          "amount_yuan": 200,
+          "note": "一等奖1份、二等奖3份、三等奖6份"
+        }
+      ],
+      "funding_sources": [
+        {
+          "name": "社团活动经费",
+          "amount_yuan": 2000
+        }
+      ]
+    }
+  },
+  "materials": {
+    "items": [
+      {
+        "id": "M1",
+        "category": "场地布置",
+        "name": "马卡龙气球套装",
+        "spec": "含气球、打气筒、彩带",
+        "unit": "套",
+        "quantity": 5,
+        "unit_price_yuan": 30,
+        "subtotal_yuan": 150,
+        "purchase_channel": "网购",
+        "owner": "后勤组",
+        "needed_by": "2026-11-07",
+        "status": "pending",
+        "note": "提前一天打气，避免现场耗时"
+      },
+      {
+        "id": "M2",
+        "category": "场地布置",
+        "name": "主横幅",
+        "spec": "6m×0.8m，含设计",
+        "unit": "条",
+        "quantity": 1,
+        "unit_price_yuan": 120,
+        "subtotal_yuan": 120,
+        "purchase_channel": "线下",
+        "owner": "宣传组",
+        "needed_by": "2026-11-07",
+        "status": "pending",
+        "note": "文案需指导老师确认"
+      },
+      {
+        "id": "M3",
+        "category": "场地布置",
+        "name": "荧光棒",
+        "spec": "绿色/蓝色混装",
+        "unit": "根",
+        "quantity": 100,
+        "unit_price_yuan": 0.8,
+        "subtotal_yuan": 80,
+        "purchase_channel": "网购",
+        "owner": "后勤组",
+        "needed_by": "2026-11-06",
+        "status": "pending",
+        "note": ""
+      },
+      {
+        "id": "M4",
+        "category": "场地布置",
+        "name": "舞台背景板",
+        "spec": "3m×2m KT板",
+        "unit": "块",
+        "quantity": 1,
+        "unit_price_yuan": 300,
+        "subtotal_yuan": 300,
+        "purchase_channel": "线下",
+        "owner": "宣传组",
+        "needed_by": "2026-11-08",
+        "status": "pending",
+        "note": "含安装，彩排前到位"
+      },
+      {
+        "id": "M5",
+        "category": "设备",
+        "name": "音响设备",
+        "spec": "含调音台、2个无线麦",
+        "unit": "套",
+        "quantity": 1,
+        "unit_price_yuan": 400,
+        "subtotal_yuan": 400,
+        "purchase_channel": "租赁",
+        "owner": "设备组",
+        "needed_by": "2026-11-09",
+        "status": "pending",
+        "note": "18:30前完成联调"
+      },
+      {
+        "id": "M6",
+        "category": "道具",
+        "name": "节目服装道具",
+        "spec": "3个节目使用",
+        "unit": "批",
+        "quantity": 1,
+        "unit_price_yuan": 300,
+        "subtotal_yuan": 300,
+        "purchase_channel": "租赁",
+        "owner": "节目组",
+        "needed_by": "2026-11-08",
+        "status": "pending",
+        "note": "彩排时确认尺码"
+      },
+      {
+        "id": "M7",
+        "category": "餐饮",
+        "name": "矿泉水",
+        "spec": "550ml×24瓶/箱",
+        "unit": "箱",
+        "quantity": 4,
+        "unit_price_yuan": 35,
+        "subtotal_yuan": 140,
+        "purchase_channel": "线下",
+        "owner": "后勤组",
+        "needed_by": "2026-11-09",
+        "status": "pending",
+        "note": "演职人员、嘉宾优先"
+      },
+      {
+        "id": "M8",
+        "category": "餐饮",
+        "name": "小零食分享包",
+        "spec": "独立小包装",
+        "unit": "份",
+        "quantity": 100,
+        "unit_price_yuan": 2,
+        "subtotal_yuan": 200,
+        "purchase_channel": "网购",
+        "owner": "后勤组",
+        "needed_by": "2026-11-08",
+        "status": "pending",
+        "note": "注意保质期"
+      },
+      {
+        "id": "M9",
+        "category": "奖品",
+        "name": "抽奖小礼品",
+        "spec": "文具/文创混搭",
+        "unit": "份",
+        "quantity": 10,
+        "unit_price_yuan": 20,
+        "subtotal_yuan": 200,
+        "purchase_channel": "网购",
+        "owner": "后勤组",
+        "needed_by": "2026-11-07",
+        "status": "pending",
+        "note": "提前编号，对应奖券"
+      }
+    ],
+    "summary": {
+      "total_items": 9,
+      "total_quantity": 223,
+      "estimated_cost_yuan": 1890
+    }
+  },
+  "tasks": {
+    "items": [
+      {
+        "id": "T1",
+        "phase": "筹备期",
+        "name": "成立筹备组并确认分工",
+        "role": "总协调",
+        "owner": "项目负责人",
+        "collaborators": [
+          "策划组",
+          "宣传组",
+          "后勤组"
+        ],
+        "start_at": "2026-11-02T19:00:00+08:00",
+        "due_at": "2026-11-02T22:00:00+08:00",
+        "priority": "high",
+        "depends_on": [],
+        "acceptance": "输出五组分工表，所有组长在群里确认",
+        "notes": ""
+      },
+      {
+        "id": "T2",
+        "phase": "筹备期",
+        "name": "节目征集与初审",
+        "role": "节目组",
+        "owner": "节目组长",
+        "collaborators": [
+          "各社团负责人"
+        ],
+        "start_at": "2026-11-02T19:00:00+08:00",
+        "due_at": "2026-11-03T22:00:00+08:00",
+        "priority": "medium",
+        "depends_on": [
+          "T1"
+        ],
+        "acceptance": "收集不少于8个节目，完成时长和内容初审",
+        "notes": "优先保留语言类和互动类节目"
+      },
+      {
+        "id": "T3",
+        "phase": "筹备期",
+        "name": "确认场地与设备",
+        "role": "后勤组",
+        "owner": "后勤组长",
+        "collaborators": [
+          "设备组"
+        ],
+        "start_at": "2026-11-02T19:00:00+08:00",
+        "due_at": "2026-11-04T18:00:00+08:00",
+        "priority": "high",
+        "depends_on": [
+          "T1"
+        ],
+        "acceptance": "拿到礼堂使用确认，音响租赁合同签订",
+        "notes": "确认是否可用学校音响，能省则省"
+      },
+      {
+        "id": "T4",
+        "phase": "筹备期",
+        "name": "完成物资采购",
+        "role": "后勤组",
+        "owner": "采购负责人",
+        "collaborators": [
+          "宣传组"
+        ],
+        "start_at": "2026-11-04T09:00:00+08:00",
+        "due_at": "2026-11-07T18:00:00+08:00",
+        "priority": "high",
+        "depends_on": [
+          "T3"
+        ],
+        "acceptance": "物资清单全部到货或确认借用，票据齐全",
+        "notes": "保留网购订单截图"
+      },
+      {
+        "id": "T5",
+        "phase": "宣传与采购期",
+        "name": "设计海报和背景板",
+        "role": "宣传组",
+        "owner": "设计负责人",
+        "collaborators": [
+          "策划组"
+        ],
+        "start_at": "2026-11-04T09:00:00+08:00",
+        "due_at": "2026-11-06T18:00:00+08:00",
+        "priority": "medium",
+        "depends_on": [
+          "T2"
+        ],
+        "acceptance": "输出海报、背景板、推文首图三套物料",
+        "notes": "主色调用蓝绿+暖黄"
+      },
+      {
+        "id": "T6",
+        "phase": "宣传与采购期",
+        "name": "发布公众号推文和班级群通知",
+        "role": "宣传组",
+        "owner": "新媒体负责人",
+        "collaborators": [
+          "各班班长"
+        ],
+        "start_at": "2026-11-05T20:00:00+08:00",
+        "due_at": "2026-11-07T12:00:00+08:00",
+        "priority": "medium",
+        "depends_on": [
+          "T5"
+        ],
+        "acceptance": "推文阅读量≥500，覆盖至少80%新生班级",
+        "notes": "推文内嵌报名/签到二维码"
+      },
+      {
+        "id": "T7",
+        "phase": "彩排与执行期",
+        "name": "带妆彩排",
+        "role": "节目组",
+        "owner": "节目组长",
+        "collaborators": [
+          "舞台组",
+          "设备组"
+        ],
+        "start_at": "2026-11-08T14:00:00+08:00",
+        "due_at": "2026-11-08T18:00:00+08:00",
+        "priority": "high",
+        "depends_on": [
+          "T2",
+          "T5"
+        ],
+        "acceptance": "所有节目完整走台一次，伴奏和灯光点位确认",
+        "notes": "记录每个节目的实际时长"
+      },
+      {
+        "id": "T8",
+        "phase": "宣传与采购期",
+        "name": "制作签到表和抽奖券",
+        "role": "后勤组",
+        "owner": "签到负责人",
+        "collaborators": [
+          "宣传组"
+        ],
+        "start_at": "2026-11-06T09:00:00+08:00",
+        "due_at": "2026-11-07T18:00:00+08:00",
+        "priority": "low",
+        "depends_on": [
+          "T1"
+        ],
+        "acceptance": "签到表按班级分组，抽奖券编号与礼品对应",
+        "notes": "准备备用签字笔"
+      },
+      {
+        "id": "T9",
+        "phase": "彩排与执行期",
+        "name": "现场布置",
+        "role": "后勤组",
+        "owner": "后勤组长",
+        "collaborators": [
+          "宣传组",
+          "志愿者"
+        ],
+        "start_at": "2026-11-09T16:00:00+08:00",
+        "due_at": "2026-11-09T18:30:00+08:00",
+        "priority": "high",
+        "depends_on": [
+          "T4"
+        ],
+        "acceptance": "气球、横幅、背景板、签到台全部到位",
+        "notes": "留出消防通道"
+      },
+      {
+        "id": "T10",
+        "phase": "彩排与执行期",
+        "name": "音响灯光联调",
+        "role": "设备组",
+        "owner": "设备负责人",
+        "collaborators": [
+          "舞台组"
+        ],
+        "start_at": "2026-11-09T17:30:00+08:00",
+        "due_at": "2026-11-09T18:30:00+08:00",
+        "priority": "high",
+        "depends_on": [
+          "T3",
+          "T7"
+        ],
+        "acceptance": "所有麦克风、伴奏、PPT、灯光点位测试通过",
+        "notes": "准备备用麦克风电池"
+      },
+      {
+        "id": "T11",
+        "phase": "彩排与执行期",
+        "name": "现场执行与应急值守",
+        "role": "总协调",
+        "owner": "项目负责人",
+        "collaborators": [
+          "安全组",
+          "舞台组"
+        ],
+        "start_at": "2026-11-09T18:30:00+08:00",
+        "due_at": "2026-11-09T21:00:00+08:00",
+        "priority": "high",
+        "depends_on": [
+          "T9",
+          "T10"
+        ],
+        "acceptance": "流程按计划完成，无安全事故，偏差≤10分钟",
+        "notes": "对讲机保持畅通"
+      },
+      {
+        "id": "T12",
+        "phase": "复盘期",
+        "name": "数据统计与复盘会",
+        "role": "总协调",
+        "owner": "项目负责人",
+        "collaborators": [
+          "各组组长"
+        ],
+        "start_at": "2026-11-10T19:00:00+08:00",
+        "due_at": "2026-11-10T20:00:00+08:00",
+        "priority": "low",
+        "depends_on": [
+          "T11"
+        ],
+        "acceptance": "完成签到统计、满意度问卷和复盘纪要",
+        "notes": "复盘纪要归档到社团云盘"
+      }
+    ],
+    "summary": {
+      "total": 12,
+      "by_priority": {
+        "high": 7,
+        "medium": 3,
+        "low": 2
+      }
+    }
+  },
+  "promotion": {
+    "slogan": "新程启航，今晚发光",
+    "key_messages": [
+      "这是2026级新生的第一场校内晚会",
+      "6个社团、12个节目轮番登场",
+      "凭“新程车票”入场，可参与三轮抽奖"
+    ],
+    "copy": {
+      "title": "今晚19:00，拿好你的“新程车票”，我们礼堂见！",
+      "body": "从五湖四海来到同一片校园，你的大学故事从今晚开始。乐队、街舞、汉服、话剧轮番登场，还有三轮抽奖和社团快闪。11月9日19:00，学校礼堂，带上室友一起来，把第一张“新程车票”留作纪念。",
+      "hashtags": [
+        "#迎新晚会",
+        "#新程启航",
+        "#校园生活"
+      ],
+      "call_to_action": "11月9日19:00，学校礼堂，不见不散"
+    },
+    "channels": [
+      {
+        "channel": "微信公众号",
+        "content": "发布完整推文，含节目单、抽奖规则和报名二维码",
+        "publish_at": "2026-11-05T20:00:00+08:00",
+        "owner": "宣传组"
+      },
+      {
+        "channel": "班级群",
+        "content": "转发推文+一句口语化邀请，由各班班长发布",
+        "publish_at": "2026-11-07T12:00:00+08:00",
+        "owner": "各班班长"
+      },
+      {
+        "channel": "校园海报",
+        "content": "在食堂、宿舍楼下张贴A2海报，保留至活动当天",
+        "publish_at": "2026-11-06T10:00:00+08:00",
+        "owner": "宣传组"
+      }
+    ],
+    "poster_copy": {
+      "headline": "新程启航",
+      "subheadline": "2026迎新晚会 · 11.09 19:00 · 学校礼堂",
+      "footer": "凭“新程车票”入场 · 三轮抽奖 · 社团快闪"
+    }
+  },
+  "risks": {
+    "items": [
+      {
+        "id": "R1",
+        "category": "设备",
+        "description": "音响突然故障或无线麦没电，导致节目无法正常进行",
+        "level": "high",
+        "probability": "medium",
+        "impact": "演出中断5～15分钟，观众体验受损",
+        "trigger": "彩排或正式演出时出现杂音、断频、无声音",
+        "mitigation": "提前2小时联调；准备2块备用电池和1个备用麦克风；重要伴奏存U盘和电脑双备份",
+        "contingency": "立即切换备用麦克风；若音响整体故障，改为主持人清唱/互动游戏过渡，同时联系设备商",
+        "owner": "设备组"
+      },
+      {
+        "id": "R2",
+        "category": "人员",
+        "description": "关键节目演员临时缺席或迟到",
+        "level": "high",
+        "probability": "medium",
+        "impact": "节目单出现空档，流程被打乱",
+        "trigger": "彩排未到、活动当天联系不上",
+        "mitigation": "每个节目指定替补；提前收集演员紧急联系方式；节目顺序留出可调整空间",
+        "contingency": "由主持人插入互动游戏或社团快闪；必要时调整节目顺序",
+        "owner": "节目组"
+      },
+      {
+        "id": "R3",
+        "category": "安全",
+        "description": "入场和抽奖环节人流拥挤，发生推挤或踩踏",
+        "level": "high",
+        "probability": "low",
+        "impact": "人员受伤，活动中断，产生严重后果",
+        "trigger": "入口拥堵、观众集体向前移动",
+        "mitigation": "设置单向入口和隔离带；安排4名安全志愿者；抽奖时要求观众留在座位",
+        "contingency": "立即停止环节，打开两侧通道，引导观众分批疏散；联系校医院",
+        "owner": "安全组"
+      },
+      {
+        "id": "R4",
+        "category": "预算",
+        "description": "临时增加物资或设备租赁导致超支",
+        "level": "medium",
+        "probability": "medium",
+        "impact": "超支100～300元，报销困难",
+        "trigger": "采购价高于预估、临时加节目",
+        "mitigation": "所有采购先比价；预留100元应急金；超过50元的临时支出需总协调确认",
+        "contingency": "砍掉非必要装饰；使用社团库存；调整奖品档位",
+        "owner": "后勤组"
+      },
+      {
+        "id": "R5",
+        "category": "宣传",
+        "description": "宣传覆盖不足，实际到场人数低于预期",
+        "level": "medium",
+        "probability": "medium",
+        "impact": "现场氛围冷清，互动环节效果差",
+        "trigger": "推文阅读量低、报名人数少于60人",
+        "mitigation": "公众号+班级群+海报三渠道；提前3天统计报名；请辅导员协助通知",
+        "contingency": "缩小场地或调整座位；增加现场报名通道；让社团成员带动气氛",
+        "owner": "宣传组"
+      },
+      {
+        "id": "R6",
+        "category": "场地",
+        "description": "礼堂临时被学校征用或设备检修",
+        "level": "medium",
+        "probability": "low",
+        "impact": "活动需改期或更换场地",
+        "trigger": "活动前3天收到场地变更通知",
+        "mitigation": "提前一周确认场地；准备一个可容纳80人的备用教室；与场地管理员保持联系",
+        "contingency": "启用备用教室，压缩舞台规模；或改期至11月10日",
+        "owner": "后勤组"
+      },
+      {
+        "id": "R7",
+        "category": "舆情",
+        "description": "现场照片/视频未经同意被发布，引发肖像权争议",
+        "level": "low",
+        "probability": "low",
+        "impact": "个别同学不满，产生投诉",
+        "trigger": "观众提出不要拍摄或要求删除照片",
+        "mitigation": "入口处设置拍摄提示；安排摄影师注意回避；建立照片删除渠道",
+        "contingency": "立即删除相关素材并当面道歉；在推文中说明素材使用范围",
+        "owner": "宣传组"
+      }
+    ],
+    "summary": {
+      "total": 7,
+      "high": 2,
+      "medium": 4,
+      "low": 1
+    }
+  },
+  "review": {
+    "kpis": [
+      {
+        "name": "实际到场人数",
+        "target": "≥90人",
+        "method": "签到表统计"
+      },
+      {
+        "name": "流程偏差",
+        "target": "≤10分钟",
+        "method": "执行表实际时间对比"
+      },
+      {
+        "name": "预算执行率",
+        "target": "≤100%",
+        "method": "票据汇总"
+      },
+      {
+        "name": "观众满意度",
+        "target": "≥4.0/5.0",
+        "method": "活动后问卷"
+      }
+    ],
+    "retro_questions": [
+      "实际到场人数与报名人数的差距是多少？原因是什么？",
+      "哪个环节超时最多？下一次如何压缩？",
+      "物资是否浪费？哪些可以借用或复用？",
+      "宣传渠道中哪个带来的到场人数最多？",
+      "现场最大的惊险时刻是什么？预案是否有效？"
+    ],
+    "checklist": [
+      "签到表、报名表、问卷数据已归档",
+      "所有票据和采购记录已交给财务",
+      "照片、视频已备份并确认授权",
+      "物资已清点，可复用物资已入库",
+      "复盘纪要已发到筹备组群",
+      "下一届可复用的方案已另存为模板"
+    ],
+    "template_markdown": "## 活动复盘：迎新晚会\n\n### 1. 基本信息\n- 时间：2026-11-09 19:00-21:00\n- 地点：学校礼堂\n- 实际到场：____ 人\n- 总支出：____ 元\n\n### 2. 目标达成\n| 目标 | 结果 | 是否达成 |\n|---|---|---|\n| 到场≥90人 | | |\n| 流程偏差≤10分钟 | | |\n| 满意度≥4.0 | | |\n\n### 3. 做得好的\n- \n\n### 4. 需要改进的\n- \n\n### 5. 风险与应急复盘\n- 是否发生风险：\n- 预案是否有效：\n\n### 6. 下次行动项\n| 行动 | 负责人 | 截止时间 |\n|---|---|---|\n| | | |\n"
+  },
+  "assumptions": [
+    "学校礼堂可免费使用，若临时收费需从预算中调整",
+    "音响设备按400元租赁估算，若学校可免费提供则节省400元",
+    "物资单价为2026年11月本地估算，实际以采购价为准",
+    "活动时间避开期中考试和校级大型活动"
+  ],
+  "warnings": [
+    "背景板300元占预算比例较高，若预算紧张可改为投影背景",
+    "11月8日彩排与部分社团常规活动可能冲突，需提前协调"
+  ]
+}
